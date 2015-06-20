@@ -1,6 +1,6 @@
 # DLTriangle
 
-[![CI Status](http://img.shields.io/travis/dajarretie/DLTriangle.svg?style=flat)](https://travis-ci.org/Damien Lajarretie/DLTriangle)
+[![CI Status](https://travis-ci.org/dlajarretie/DLTriangle.svg?branch=master)](https://travis-ci.org/dlajarretie/DLTriangle)
 [![Version](https://img.shields.io/cocoapods/v/DLTriangle.svg?style=flat)](http://cocoapods.org/pods/DLTriangle)
 [![License](https://img.shields.io/cocoapods/l/DLTriangle.svg?style=flat)](http://cocoapods.org/pods/DLTriangle)
 [![Platform](https://img.shields.io/cocoapods/p/DLTriangle.svg?style=flat)](http://cocoapods.org/pods/DLTriangle)
