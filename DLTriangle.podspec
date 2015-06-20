@@ -9,20 +9,20 @@
 
 Pod::Spec.new do |s|
   s.name             = "DLTriangle"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of DLTriangle."
-  s.description      = <<-DESC
-                       An optional longer description of DLTriangle
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DLTriangle"
+  s.version          = "1.0"
+  s.summary          = "Class implementing Möller-Trumbore algorithm to allow fast and easy triangle/ray intersection checks"
+#s.description      = <<-DESC
+#                       An optional longer description of DLTriangle
+#
+#                       * Markdown format.
+#                       * Don't worry about the indent, we strip it!
+#                       DESC
+  s.homepage         = "https://github.com/dlajarretie/DLTriangle"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Damien Lajarretie" => "dlajarretie@airintservices.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DLTriangle.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/dlajarretie/DLTriangle.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/dqms_output>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
