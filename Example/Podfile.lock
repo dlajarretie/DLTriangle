@@ -1,0 +1,14 @@
+PODS:
+  - DLTriangle (0.1.0)
+
+DEPENDENCIES:
+  - DLTriangle (from `../`)
+
+EXTERNAL SOURCES:
+  DLTriangle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DLTriangle: c7c76256d9d5a16e8f109a7582784e4a7c5500a6
+
+COCOAPODS: 0.37.2

@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52FE99200E324CB2CD532587 /* Pods-DLTriangle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FB74CCA229822FE8DB57A8 /* Pods-DLTriangle_Tests-dummy.m */; };
+		581EEFA0E98B244692107B6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207D80E2B4ED3A0DE5E0A6D7 /* Foundation.framework */; };
+		74FEB4953949BC7DE074E5FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207D80E2B4ED3A0DE5E0A6D7 /* Foundation.framework */; };
+		7944CFF6A5A03C5A7206F60F /* Pods-DLTriangle_Tests-DLTriangle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D620C6E931A13EFA785F749C /* Pods-DLTriangle_Tests-DLTriangle-dummy.m */; };
+		79980EF4D56B7F1B214695E2 /* DLTriangle.h in Headers */ = {isa = PBXBuildFile; fileRef = E2F79AFEA68E09EA462431E1 /* DLTriangle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AA67409E0F4904D6151ACFC /* Pods-DLTriangle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6562BBC3DBFAE9201ABB2F32 /* Pods-DLTriangle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E1FD50FEDB8F07D3D66196C /* DLTriangle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62CDDEAD7E7DD972A4DB8AB2 /* DLTriangle.bundle */; };
+		96258EAEFDE30C92BF227B2C /* DLTriangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 385304504C5F9EE53BB05E6F /* DLTriangle.m */; };
+		ABA25844415A2EF940614EE0 /* Pods-DLTriangle_Tests-DLTriangle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA36D2316D710D3F9047C69 /* Pods-DLTriangle_Tests-DLTriangle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1C73C1FD1D7FF20E00D9F58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C14503714064CEE79118B5A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA06FC26D8DF3DB0D9193670;
+			remoteInfo = "Pods-DLTriangle_Tests-DLTriangle";
+		};
+		D3B3A36FC64FAC1854659BE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C14503714064CEE79118B5A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 712508EC386D5E1292A2A102;
+			remoteInfo = "Pods-DLTriangle_Tests-DLTriangle-DLTriangle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FB74CCA229822FE8DB57A8 /* Pods-DLTriangle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLTriangle_Tests-dummy.m"; sourceTree = "<group>"; };
+		10A198CD55F2C04F0E909A45 /* Pods-DLTriangle_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLTriangle_Tests-resources.sh"; sourceTree = "<group>"; };
+		1CA36D2316D710D3F9047C69 /* Pods-DLTriangle_Tests-DLTriangle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLTriangle_Tests-DLTriangle-umbrella.h"; sourceTree = "<group>"; };
+		207D80E2B4ED3A0DE5E0A6D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		385304504C5F9EE53BB05E6F /* DLTriangle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DLTriangle.m; sourceTree = "<group>"; };
+		4222C3A539F829FC56FDA9D5 /* Pods-DLTriangle_Tests-DLTriangle-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLTriangle_Tests-DLTriangle-Private.xcconfig"; sourceTree = "<group>"; };
+		43C87F58AC79F8BD532C93C2 /* Pods-DLTriangle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DLTriangle_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		62CDDEAD7E7DD972A4DB8AB2 /* DLTriangle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLTriangle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6562BBC3DBFAE9201ABB2F32 /* Pods-DLTriangle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLTriangle_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6944E7B57A355CDADD20DC3C /* Pods-DLTriangle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DLTriangle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6AD52A1E6A4EF1B3834BC8A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E858219C201E2E243AB7E12 /* Pods-DLTriangle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLTriangle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		916C6BE9C086EB9BF5A17025 /* Pods-DLTriangle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLTriangle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		94E5D117451FACB8CCF4EBB9 /* Pods-DLTriangle_Tests-DLTriangle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLTriangle_Tests-DLTriangle-prefix.pch"; sourceTree = "<group>"; };
+		AFFEDE8174C3FC885493E0E2 /* Pods-DLTriangle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DLTriangle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B41D7B75156DEE3A851E90F4 /* DLTriangle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DLTriangle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2FB890E9D2FF12EF0A349B /* Pods-DLTriangle_Tests-DLTriangle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DLTriangle_Tests-DLTriangle.xcconfig"; sourceTree = "<group>"; };
+		C9CA7FDE0097F0212A433A40 /* Pods-DLTriangle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DLTriangle_Tests.modulemap"; sourceTree = "<group>"; };
+		D0B08313C5D2CCAC0DFDE54F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D620C6E931A13EFA785F749C /* Pods-DLTriangle_Tests-DLTriangle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DLTriangle_Tests-DLTriangle-dummy.m"; sourceTree = "<group>"; };
+		E2797E0FA61FDEEC41DFE66A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F79AFEA68E09EA462431E1 /* DLTriangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DLTriangle.h; sourceTree = "<group>"; };
+		EAB28C51924737D94BAA425E /* Pods-DLTriangle_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DLTriangle_Tests-environment.h"; sourceTree = "<group>"; };
+		EDE42A6280CEE4A3EA136803 /* Pods_DLTriangle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLTriangle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CB249A9D3A3DA2405CF83F /* Pods-DLTriangle_Tests-DLTriangle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DLTriangle_Tests-DLTriangle.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DC07E631DDE3EA966770E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581EEFA0E98B244692107B6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D2510C5C91E420FD256502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFA348A46ED591D3167A86DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74FEB4953949BC7DE074E5FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B0F1CCA3CF04015BFB8B286 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7ABF44D3D2712C88A121BFAA /* Pods-DLTriangle_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		51B301EE50B2929F7C3DC1E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				207D80E2B4ED3A0DE5E0A6D7 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		679F7143A8A76082462B26B9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E81EEDD84FB627E8B29D95 /* DLTriangle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		75357ACD4AE7CF0E32DE93B4 = {
+			isa = PBXGroup;
+			children = (
+				D0B08313C5D2CCAC0DFDE54F /* Podfile */,
+				679F7143A8A76082462B26B9 /* Development Pods */,
+				E9ED395B3B0C359FCB4A1006 /* Frameworks */,
+				C66058FC5476FAA3E0B317E8 /* Products */,
+				4B0F1CCA3CF04015BFB8B286 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7ABF44D3D2712C88A121BFAA /* Pods-DLTriangle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6AD52A1E6A4EF1B3834BC8A4 /* Info.plist */,
+				C9CA7FDE0097F0212A433A40 /* Pods-DLTriangle_Tests.modulemap */,
+				AFFEDE8174C3FC885493E0E2 /* Pods-DLTriangle_Tests-acknowledgements.markdown */,
+				6944E7B57A355CDADD20DC3C /* Pods-DLTriangle_Tests-acknowledgements.plist */,
+				02FB74CCA229822FE8DB57A8 /* Pods-DLTriangle_Tests-dummy.m */,
+				EAB28C51924737D94BAA425E /* Pods-DLTriangle_Tests-environment.h */,
+				43C87F58AC79F8BD532C93C2 /* Pods-DLTriangle_Tests-frameworks.sh */,
+				10A198CD55F2C04F0E909A45 /* Pods-DLTriangle_Tests-resources.sh */,
+				6562BBC3DBFAE9201ABB2F32 /* Pods-DLTriangle_Tests-umbrella.h */,
+				916C6BE9C086EB9BF5A17025 /* Pods-DLTriangle_Tests.debug.xcconfig */,
+				8E858219C201E2E243AB7E12 /* Pods-DLTriangle_Tests.release.xcconfig */,
+			);
+			name = "Pods-DLTriangle_Tests";
+			path = "Target Support Files/Pods-DLTriangle_Tests";
+			sourceTree = "<group>";
+		};
+		99AC970B943323713E90ADED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EF74075BA1717782D7093D86 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		C66058FC5476FAA3E0B317E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62CDDEAD7E7DD972A4DB8AB2 /* DLTriangle.bundle */,
+				B41D7B75156DEE3A851E90F4 /* DLTriangle.framework */,
+				EDE42A6280CEE4A3EA136803 /* Pods_DLTriangle_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9E81EEDD84FB627E8B29D95 /* DLTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				99AC970B943323713E90ADED /* Pod */,
+				F2A5AC5CF6D8B87E6B2748F4 /* Support Files */,
+			);
+			name = DLTriangle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E9ED395B3B0C359FCB4A1006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51B301EE50B2929F7C3DC1E3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF74075BA1717782D7093D86 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E2F79AFEA68E09EA462431E1 /* DLTriangle.h */,
+				385304504C5F9EE53BB05E6F /* DLTriangle.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F2A5AC5CF6D8B87E6B2748F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2797E0FA61FDEEC41DFE66A /* Info.plist */,
+				F9CB249A9D3A3DA2405CF83F /* Pods-DLTriangle_Tests-DLTriangle.modulemap */,
+				BD2FB890E9D2FF12EF0A349B /* Pods-DLTriangle_Tests-DLTriangle.xcconfig */,
+				4222C3A539F829FC56FDA9D5 /* Pods-DLTriangle_Tests-DLTriangle-Private.xcconfig */,
+				D620C6E931A13EFA785F749C /* Pods-DLTriangle_Tests-DLTriangle-dummy.m */,
+				94E5D117451FACB8CCF4EBB9 /* Pods-DLTriangle_Tests-DLTriangle-prefix.pch */,
+				1CA36D2316D710D3F9047C69 /* Pods-DLTriangle_Tests-DLTriangle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DLTriangle_Tests-DLTriangle";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6CE4252435EF98A69BDFFDF8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79980EF4D56B7F1B214695E2 /* DLTriangle.h in Headers */,
+				ABA25844415A2EF940614EE0 /* Pods-DLTriangle_Tests-DLTriangle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		758A0F2A0E8DC396C79BE386 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA67409E0F4904D6151ACFC /* Pods-DLTriangle_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		712508EC386D5E1292A2A102 /* Pods-DLTriangle_Tests-DLTriangle-DLTriangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3D8421FB98DAE4286FC212D /* Build configuration list for PBXNativeTarget "Pods-DLTriangle_Tests-DLTriangle-DLTriangle" */;
+			buildPhases = (
+				82C9D46282029BE113DE4E0B /* Sources */,
+				B1D2510C5C91E420FD256502 /* Frameworks */,
+				2D5CF1D1AEB8F7C9770E77CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DLTriangle_Tests-DLTriangle-DLTriangle";
+			productName = "Pods-DLTriangle_Tests-DLTriangle-DLTriangle";
+			productReference = 62CDDEAD7E7DD972A4DB8AB2 /* DLTriangle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9DEC1B966D54248F0131CBB3 /* Pods-DLTriangle_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41F2A01F92CC1F8249EED435 /* Build configuration list for PBXNativeTarget "Pods-DLTriangle_Tests" */;
+			buildPhases = (
+				1484E3E0D8D9F25773AF3CB2 /* Sources */,
+				BFA348A46ED591D3167A86DE /* Frameworks */,
+				758A0F2A0E8DC396C79BE386 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CD90B27D7931F800C71B51 /* PBXTargetDependency */,
+			);
+			name = "Pods-DLTriangle_Tests";
+			productName = "Pods-DLTriangle_Tests";
+			productReference = EDE42A6280CEE4A3EA136803 /* Pods_DLTriangle_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA06FC26D8DF3DB0D9193670 /* Pods-DLTriangle_Tests-DLTriangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD28801CF9ED462CF1D1C6C /* Build configuration list for PBXNativeTarget "Pods-DLTriangle_Tests-DLTriangle" */;
+			buildPhases = (
+				C2939A851B9380833C4967A2 /* Sources */,
+				2DC07E631DDE3EA966770E84 /* Frameworks */,
+				D8CF3C54FE582CD16CC75194 /* Resources */,
+				6CE4252435EF98A69BDFFDF8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FDF131F8BCED9707DE0D4F /* PBXTargetDependency */,
+			);
+			name = "Pods-DLTriangle_Tests-DLTriangle";
+			productName = "Pods-DLTriangle_Tests-DLTriangle";
+			productReference = B41D7B75156DEE3A851E90F4 /* DLTriangle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C14503714064CEE79118B5A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = BB9DFB11528B75EB91D82541 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75357ACD4AE7CF0E32DE93B4;
+			productRefGroup = C66058FC5476FAA3E0B317E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DEC1B966D54248F0131CBB3 /* Pods-DLTriangle_Tests */,
+				CA06FC26D8DF3DB0D9193670 /* Pods-DLTriangle_Tests-DLTriangle */,
+				712508EC386D5E1292A2A102 /* Pods-DLTriangle_Tests-DLTriangle-DLTriangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5CF1D1AEB8F7C9770E77CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CF3C54FE582CD16CC75194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1FD50FEDB8F07D3D66196C /* DLTriangle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1484E3E0D8D9F25773AF3CB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FE99200E324CB2CD532587 /* Pods-DLTriangle_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C9D46282029BE113DE4E0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2939A851B9380833C4967A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96258EAEFDE30C92BF227B2C /* DLTriangle.m in Sources */,
+				7944CFF6A5A03C5A7206F60F /* Pods-DLTriangle_Tests-DLTriangle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96CD90B27D7931F800C71B51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DLTriangle_Tests-DLTriangle";
+			target = CA06FC26D8DF3DB0D9193670 /* Pods-DLTriangle_Tests-DLTriangle */;
+			targetProxy = B1C73C1FD1D7FF20E00D9F58 /* PBXContainerItemProxy */;
+		};
+		A2FDF131F8BCED9707DE0D4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DLTriangle_Tests-DLTriangle-DLTriangle";
+			target = 712508EC386D5E1292A2A102 /* Pods-DLTriangle_Tests-DLTriangle-DLTriangle */;
+			targetProxy = D3B3A36FC64FAC1854659BE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04E3173D50427AC06AFCB9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		084CC629A04281060D188809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4222C3A539F829FC56FDA9D5 /* Pods-DLTriangle_Tests-DLTriangle-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DLTriangle_Tests-DLTriangle/Pods-DLTriangle_Tests-DLTriangle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DLTriangle_Tests-DLTriangle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DLTriangle_Tests-DLTriangle/Pods-DLTriangle_Tests-DLTriangle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DLTriangle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FB13B58513DAB3389186272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E858219C201E2E243AB7E12 /* Pods-DLTriangle_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DLTriangle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DLTriangle_Tests/Pods-DLTriangle_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DLTriangle_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E2CDD647A14B6F2BE47599E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3778FC118777EF59637EF518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4222C3A539F829FC56FDA9D5 /* Pods-DLTriangle_Tests-DLTriangle-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DLTriangle_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DLTriangle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		548DA9A9585F4BA063151B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4222C3A539F829FC56FDA9D5 /* Pods-DLTriangle_Tests-DLTriangle-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-DLTriangle_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DLTriangle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B77F6980F79F6F15B8592418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4222C3A539F829FC56FDA9D5 /* Pods-DLTriangle_Tests-DLTriangle-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DLTriangle_Tests-DLTriangle/Pods-DLTriangle_Tests-DLTriangle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DLTriangle_Tests-DLTriangle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DLTriangle_Tests-DLTriangle/Pods-DLTriangle_Tests-DLTriangle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DLTriangle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED9BA94D64E722A9A5188AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916C6BE9C086EB9BF5A17025 /* Pods-DLTriangle_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DLTriangle_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DLTriangle_Tests/Pods-DLTriangle_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DLTriangle_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41F2A01F92CC1F8249EED435 /* Build configuration list for PBXNativeTarget "Pods-DLTriangle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED9BA94D64E722A9A5188AB9 /* Debug */,
+				0FB13B58513DAB3389186272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3D8421FB98DAE4286FC212D /* Build configuration list for PBXNativeTarget "Pods-DLTriangle_Tests-DLTriangle-DLTriangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548DA9A9585F4BA063151B61 /* Debug */,
+				3778FC118777EF59637EF518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9DFB11528B75EB91D82541 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E3173D50427AC06AFCB9D5 /* Debug */,
+				1E2CDD647A14B6F2BE47599E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD28801CF9ED462CF1D1C6C /* Build configuration list for PBXNativeTarget "Pods-DLTriangle_Tests-DLTriangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				084CC629A04281060D188809 /* Debug */,
+				B77F6980F79F6F15B8592418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C14503714064CEE79118B5A5 /* Project object */;
+}

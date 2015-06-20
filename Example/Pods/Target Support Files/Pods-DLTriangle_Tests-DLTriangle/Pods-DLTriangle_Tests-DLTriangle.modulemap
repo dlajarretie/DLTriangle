@@ -1,0 +1,6 @@
+framework module DLTriangle {
+  umbrella header "Pods-DLTriangle_Tests-DLTriangle-umbrella.h"
+
+  export *
+  module * { export * }
+}
