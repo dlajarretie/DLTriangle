@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "712508EC386D5E1292A2A102"
+               BlueprintIdentifier = "F142BF0C9753220703AE1A90"
                BuildableName = "DLTriangle.bundle"
                BlueprintName = "Pods-DLTriangle_Tests-DLTriangle-DLTriangle"
                ReferencedContainer = "container:Pods.xcodeproj">
